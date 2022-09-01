@@ -1,3 +1,9 @@
-## Courier theme by ThemeWagon team.
+## Kapital Systems
 ---
-Thank you for using Courier See the "public" folder, you will find everything ready to use there. If you want to use the gulp based workflow, cd to this directory in your terminal and run this command: npm i && gulp
+The website of Kapital Systems
+
+The following are the services we provide:-
+
+1. Battery products from all branded companies
+2. Battery related services and solutions
+3. Vehicle pollution checking center
