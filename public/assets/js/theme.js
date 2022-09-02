@@ -378,3 +378,30 @@ docReady(navbarInit);
 docReady(detectorInit);
 docReady(scrollToTop);
 //# sourceMappingURL=theme.js.map
+
+// highlight current day on business hours box
+var currentDay = function currentDay() {
+  switch (new Date().getDay()) {
+    case 1:
+      document.getElementById('mon-active').classList.add("text-success");
+      break;
+    case 2:
+      document.getElementById('tue-active').classList.add("text-success");
+      break;
+    case 3:
+      document.getElementById('wed-active').classList.add("text-success");
+      break;
+    case 4:
+      document.getElementById('thu-active').classList.add("text-success");
+      break;
+    case 5:
+      document.getElementById('fri-active').classList.add("text-success");
+      break;
+    case 6:
+      document.getElementById('sat-active').classList.add("text-success");
+      break;
+    case 7:
+      document.getElementById('sun-active').classList.add("text-danger");
+  }
+};
+docReady(currentDay);
