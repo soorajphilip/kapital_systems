@@ -400,7 +400,7 @@ var currentDay = function currentDay() {
     case 6:
       document.getElementById('sat-active').classList.add("text-success");
       break;
-    case 7:
+    case 0:
       document.getElementById('sun-active').classList.add("text-danger");
   }
 };
